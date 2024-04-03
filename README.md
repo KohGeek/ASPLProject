@@ -1,4 +1,4 @@
-# ASPLImageSegmentation
+# ASPL Project
 
 This repository documents all non-confidential work conducted to fulfill UECS3596, Project II.
 
