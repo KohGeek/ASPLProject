@@ -6,6 +6,9 @@ This work is done in collaboration with data provided kindly by ASPL. Due to NDA
 
 ## Directories
 
-- **ndaSafe**: Contains efforts to reproduce the work without the use of confidential data.
-- **segmentation**: Contains the code used for image segmentation.
-- **syntheticDataGeneration**: Contains the Blender API code to generate synthetic data.
+- **images**
+  - **ndaSafeReference**: Contains reference image for PowerPoint and reports, as well as potential attempt to remake NDAsafe data.
+  - **aspl_images**: Contains images provided by ASPL.
+- **scripts**
+  - **other**: Contains scripts used for data processing and other miscellaneous tasks.
+  - **segment_predict**: Contains scripts used for image segmentation and prediction.
