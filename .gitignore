@@ -1,2 +1,3 @@
 # ASPL dataset
-images/aspl_images_pre_labeled
+images/aspl_images_pre_labelled/test
+images/aspl_images_pre_labelled/train
