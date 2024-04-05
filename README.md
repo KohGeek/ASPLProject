@@ -6,7 +6,7 @@ This work is done in collaboration with data provided kindly by ASPL. Due to NDA
 
 ## Directories
 
-- **images**
+- **datasets**
   - **ndaSafeReference**: Contains reference image for PowerPoint and reports, as well as potential attempt to remake NDAsafe data.
   - **aspl_images_pre_labelled**: Contains images provided by ASPL, before labelling work.
   - **aspl_images_post_labelled**: Contains images provided by ASPL, after labelling work.

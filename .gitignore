@@ -1,3 +1,5 @@
-# ASPL dataset
-images/aspl_images_pre_labelled/test
-images/aspl_images_pre_labelled/train
+# Python
+Include/
+Lib/
+pyvenv.cfg
+scripts/
