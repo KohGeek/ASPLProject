@@ -5,12 +5,12 @@ import random
 ## get all files recursively in a directory with a specified keyword
 def get_files(directory, keyword=None):
 
-    files = []
-    for root, directories, filenames in os.walk(directory):
+    file_list = []
+    for root, _, filenames in os.walk(directory):
         for filename in filenames:
-            files.append(os.path.join(root, filename))
+            file_list.append(os.path.join(root, filename))
 
-    return [file for file in files if keyword in file]
+    return [file for file in file_list if keyword in file]
 
 ## randomly pick a specified amount of files from a list
 # based on the ratio provided, the files will be split into training and testing sets
@@ -24,9 +24,9 @@ def random_pick(files, no_of_files, test_file_ratio):
 ## copy files from a list to a specified directory
 def copy_files(files, directory):
     x = 0
-    
+   
     if not os.path.exists(directory):
-            os.makedirs(directory)
+        os.makedirs(directory)
 
     for file in files:
         shutil.copy(file, directory)
@@ -56,8 +56,8 @@ if __name__ == "__main__":
 
     for source_folder, target_folder in folders.items():
         actual_source_directory = os.path.join(source_directory, source_folder)
-        
-        print("Copying files from {} to {}, total files {}.".format(source_folder, target_folder[0], target_folder[1]))
+
+        print(f"Copying files from {source_folder} to {target_folder[0]}, total files {target_folder[1]}.")
 
         files = get_files(actual_source_directory, keyword)
         train_files, test_files = random_pick(files, target_folder[1], test_file_ratio)
@@ -70,7 +70,5 @@ if __name__ == "__main__":
         print("Copying test files...")
         copy_files(test_files, actual_target_directory)
 
-        print("Done copying files from {} to {}.\n".format(source_folder, target_folder[0]))
-
-        
+        print(f"Done copying files from {source_folder} to {target_folder[0]}.\n")
 
