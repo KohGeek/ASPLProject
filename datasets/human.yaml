@@ -1,0 +1,12 @@
+path: datasets
+train: aspl_images_post_labelled/Train
+val: aspl_images_post_labelled/Val
+test: aspl_images_post_labelled/Test
+
+names:
+  0: Main Pad
+  1: LED Pad
+  2: Main Chip
+  3: Left LED
+  4: Right LED
+  5: PCB
