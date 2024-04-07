@@ -3,3 +3,4 @@
 *.weights
 *.pt
 runs/
+obb-new/

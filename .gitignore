@@ -4,3 +4,6 @@ Lib/
 pyvenv.cfg
 scripts/
 share/
+etc/
+
+# NDA

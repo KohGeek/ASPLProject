@@ -1,7 +1,7 @@
 train: 
-  - aspl_images_post_labelled/train
-  - aspl_images_post_labelled/test
-val: aspl_images_post_labelled/val
+  - aspl_images/train
+  - aspl_images/test
+val: aspl_images/val
 
 names:
   0: Main Pad
@@ -9,4 +9,3 @@ names:
   2: Main Chip
   3: Left LED
   4: Right LED
-  5: PCB
