@@ -1,6 +1,7 @@
+path: ./
 train: 
-  - aspl_images/train
-  - aspl_images/test
+  - rendered/train
+  - rendered/test
 val: aspl_images/val
 
 names:

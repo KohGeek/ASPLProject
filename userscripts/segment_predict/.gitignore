@@ -1,6 +1,0 @@
-# Artifacts from YOLO
-*.jpg
-*.weights
-*.pt
-runs/
-obb-new/

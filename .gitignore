@@ -8,3 +8,8 @@ etc/
 
 # NDA
 datasets/
+*.jpg
+*.weights
+*.pt
+runs/
+obb-new/
