@@ -1,0 +1,11 @@
+path: ./
+train: 
+  - rendered/train
+  - rendered/test
+val: aspl_images/val
+
+names:
+  0: Main Pad
+  1: LED Pad
+  2: Main Chip
+  3: LED Chip
