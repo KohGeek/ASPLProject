@@ -3,7 +3,7 @@ path: ./
 train: aspl/train
 val: aspl/val
 
-test: tests
+test: test
 
 names:
   0: Main Pad

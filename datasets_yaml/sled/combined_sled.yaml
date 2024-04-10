@@ -7,7 +7,7 @@ val:
   - rendered/val
   - aspl/val
   
-test: tests
+test: test
 
 names:
   0: Main Pad

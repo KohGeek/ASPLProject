@@ -3,7 +3,7 @@ path: ./
 train: rendered/train
 val: rendered/val
 
-test: tests
+test: test
 
 names:
   0: Main Pad
