@@ -1,0 +1,17 @@
+path: ./
+
+# PLACEHOLDER - do not train with this
+train: 
+  - rendered/train
+  - aspl/train
+val: 
+  - rendered/val
+  - aspl/val
+
+val: tests_cropped
+
+names:
+  0: Main Pad
+  1: LED Pad
+  2: Main Chip
+  3: LED Chip

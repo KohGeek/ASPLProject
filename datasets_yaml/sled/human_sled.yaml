@@ -1,8 +1,9 @@
 path: ./
-train: 
-  - rendered/train
-  - rendered/test
-val: aspl_images/val
+
+train: aspl/train
+val: aspl/val
+
+test: tests
 
 names:
   0: Main Pad
