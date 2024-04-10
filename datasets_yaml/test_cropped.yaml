@@ -8,7 +8,7 @@ val:
   - rendered/val
   - aspl/val
 
-val: test_cropped
+test: test_cropped
 
 names:
   0: Main Pad
