@@ -1,0 +1,12 @@
+path: ./
+
+train: render_tests/nocomp/train
+val: render_tests/nocomp/val
+
+test: test
+
+names:
+  0: Main Pad
+  1: LED Pad
+  2: Main Chip
+  3: LED Chip
