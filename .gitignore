@@ -13,3 +13,5 @@ datasets/
 *.pt
 runs/
 obb-new/
+*.pdf
+*.docx
